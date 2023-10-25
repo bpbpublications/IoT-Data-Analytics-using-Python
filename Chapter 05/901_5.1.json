@@ -1,0 +1,24 @@
+{
+  "asset": {
+    "id": "WT001",
+    "name": "Wind Turbine 001",
+    "description": "A wind turbine that generates electricity from wind energy",
+    "manufacturer": "General Electric",
+    "model": "GE 2.5-120",
+    "serial_number": "12345",
+    "location": {
+      "latitude": "40.7128° N",
+      "longitude": "74.0060° W"
+    },
+    "properties": {
+      "rated_power": {
+        "unit": "kW",
+        "value": "2.5"
+      },
+      "hub_height": {
+        "unit": "m",
+        "value": "120"
+      }
+    }
+  }
+  }

@@ -1,0 +1,27 @@
+{ 
+  "devices": [
+{
+  "device_id": "G97210100",
+  "device_name": "Smart Gateway",
+  "description": "An IoT gateway for collecting and transmitting sensor data",
+  "manufacturer": "Teltra Tech",
+  "model": "SG-100",
+  "serial_number": "SG-100-1234",
+  "location": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      },
+  "properties": {
+        "measurement_interval": "1 minute"
+      },
+  "connectivity": {
+        "protocol": "MQTT",
+        "host": "mqtt.example.com",
+        "port": "1883",
+        "username": "mqtt_user",
+        "password": "mqtt_password"
+      },
+  "asset_id": "WT001"
+}
+]
+}

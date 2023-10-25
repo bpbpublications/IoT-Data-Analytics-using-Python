@@ -1,0 +1,124 @@
+{ 
+  "devices": [
+    {
+      "id": "WT001_S01",
+      "name": "Wind Turbine Sensor 01",
+      "description": "A sensor for monitoring the wind speed and direction",
+      "manufacturer": "General Electric",
+      "model": "GE-P7",
+      "serial_number": "67890",
+      "asset_id":"WT001",
+      "location": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      },
+      "properties": {
+        "sensor_type": "Wind Speed and Direction",
+        "measurement_interval": "1 minute"
+      },
+      "connectivity": {
+        "protocol": "MQTT",
+        "host": "mqtt.example.com",
+        "port": "1883",
+        "username": "mqtt_user",
+        "password": "mqtt_password"
+      }
+    },
+    {
+      "id": "WT001_S02",
+      "name": "Wind Turbine Sensor 02",
+      "description": "A sensor for monitoring the RPM",
+      "manufacturer": "General Electric",
+      "model": "GE-P7",
+      "serial_number": "12345",
+      "asset_id":"WT001",
+      "location": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      },
+      "properties": {
+        "sensor_type": "RPM",
+        "measurement_interval": "1 minute"
+      },
+      "connectivity": {
+        "protocol": "MQTT",
+        "host": "mqtt.example.com",
+        "port": "1883",
+        "username": "mqtt_user",
+        "password": "mqtt_password"
+      }
+    },
+    {
+      "id": "WT001_S03",
+      "name": "Wind Turbine Sensor 03",
+      "description": "A sensor for monitoring the temperature",
+      "manufacturer": "General Electric",
+      "model": "GE-P7",
+      "serial_number": "67890",
+      "asset_id":"WT001",
+      "location": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      },
+      "properties": {
+        "sensor_type": "Temperature",
+        "measurement_interval": "1 minute"
+      },
+      "connectivity": {
+        "protocol": "MQTT",
+        "host": "mqtt.example.com",
+        "port": "1883",
+        "username": "mqtt_user",
+        "password": "mqtt_password"
+      }
+    },
+    {
+      "id": "WT001_S04",
+      "name": "Wind Turbine Sensor 04",
+      "description": "A sensor for monitoring the pressure",
+      "manufacturer": "General Electric",
+      "model": "GE-P7",
+      "serial_number": "537890",
+      "asset_id":"WT001",
+      "location": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      },
+      "properties": {
+        "sensor_type": "pressure",
+        "measurement_interval": "1 minute"
+      },
+      "connectivity": {
+        "protocol": "MQTT",
+        "host": "mqtt.example.com",
+        "port": "1883",
+        "username": "mqtt_user",
+        "password": "mqtt_password"
+      }
+    },
+        {
+      "id": "WT001_S05",
+      "name": "Wind Turbine Sensor 05",
+      "description": "A sensor for monitoring the energy output",
+      "manufacturer": "General Electric",
+      "model": "GE-P7",
+      "serial_number": "2150377",
+      "asset_id":"WT001",
+      "location": {
+        "latitude": "40.7128° N",
+        "longitude": "74.0060° W"
+      },
+      "properties": {
+        "sensor_type": "energy",
+        "measurement_interval": "1 minute"
+      },
+      "connectivity": {
+        "protocol": "MQTT",
+        "host": "mqtt.example.com",
+        "port": "1883",
+        "username": "mqtt_user",
+        "password": "mqtt_password"
+      }
+    }
+  ]
+}
